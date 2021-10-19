@@ -41,6 +41,11 @@ TSLIB = " \
     tslib-tests \
 "
 
+VIRTUAL = " \
+    docker-ce \
+    docker-compose \
+"
+
 IMAGE_INSTALL += " \
     ${DEV_SDK_INSTALL} \
     ${OPENMP} \
